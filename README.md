@@ -6,7 +6,7 @@ Python API client library for lineworks
 
 ## Installation
 
-To install run `pip install git+https://github.com/takuyasuenaga/pylineworks.git`.
+To install run `pip install git+https://github.com/TakuyaSuenaga/pylineworks.git`.
 
 Alternatively, you can clone the repo and run `python setup.py install`.
 
