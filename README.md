@@ -1,7 +1,7 @@
 # pylineworks
 Python API client library for lineworks
 
-> **Note:** This library only supports LINEWORKS API 2.0
+> **Note:** This library only supports LINEWORKS API 2.0  
 > **Note:** This library is not fully comprehensive.
 
 ## Installation
@@ -26,7 +26,7 @@ lw = pylineworks.api(
 The pylineworks API is setup so that LINEWORKS API are attributes of the `.api()` object. and in turn those apps have attribute representing each endpoint. Each endpoint has a handful of methods available to carry out actions on the endpoint.
 
 ```python
->>> bots = lw.bots.bot.all()
+>>> bots = lw.bots.bots.all()
 >>> print(list(bots))
 ['Example bot']
 >>> for bot in bots:
@@ -36,7 +36,7 @@ Example bot
 
 ```python
 >>> from pprint import pprint
->>> bot = lw.bots.bot.get(2000001)
+>>> bot = lw.bots.bots.get(2000001)
 >>> pprint(dict(bot))
 {
     "botId": 2000001,
