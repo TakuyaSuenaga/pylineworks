@@ -88,7 +88,12 @@ Move into the `tests` directory and make a copy of `.env_example` named `.env`.
 This file will hold all of your LINEWORKS parameters.
 
 ```sh
-pip install dotenv
+pip install python-dotenv
 pip install pytest
 pytest
 ```
+
+## References
+
+1. [https://qiita.com/mmclsntr/items/0c118f40ffe7f36cd4eb](https://qiita.com/mmclsntr/items/0c118f40ffe7f36cd4eb)  
+2. [https://github.com/netbox-community/pynetbox](https://github.com/netbox-community/pynetbox)  

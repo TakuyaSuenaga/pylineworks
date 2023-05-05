@@ -14,6 +14,7 @@ setup(
     install_requires=[
         "requests>=2.20.0,<3.0",
         "PyJWT==2.6.0",
+        "setuptools-rust==1.6.0",
         "cryptography==40.0.2",
     ],
     zip_safe=False,
