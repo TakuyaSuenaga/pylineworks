@@ -78,7 +78,8 @@ True
 Installing rust for build cryptography
 
 ```sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+pip install setuptools-rust
+python setup.py develop
 ```
 
 ## Run test
