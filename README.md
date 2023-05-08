@@ -6,9 +6,11 @@ Python API client library for lineworks
 
 ## Installation
 
-To install run `pip install git+https://github.com/TakuyaSuenaga/pylineworks.git`.
+If you don't have setuptools-rust, run `pip install setuptools-rust`  
 
-Alternatively, you can clone the repo and run `python setup.py install`.
+To install run `pip install git+https://github.com/TakuyaSuenaga/pylineworks.git`.  
+
+Alternatively, you can clone the repo and run `python setup.py install`.  
 
 ## Quick Start
 
@@ -51,7 +53,7 @@ True
 >>> 
 ```
 
-## List of supported APIs
+## Supported APIs
 
 |App       |Endpoint  |method |HTTP Request                   |
 |----------|----------|-------|-------------------------------|
