@@ -6,11 +6,9 @@ Python API client library for lineworks
 
 ## Installation
 
-If you don't have setuptools-rust, run `pip install setuptools-rust`  
-
 To install run `pip install git+https://github.com/TakuyaSuenaga/pylineworks.git`.  
 
-Alternatively, you can clone the repo and run `python setup.py install`.  
+Alternatively, you can clone the repo and run `pip install path/to/pylineworks`.  
 
 ## Quick Start
 
@@ -77,11 +75,8 @@ True
 
 ## Build development environment
 
-Installing rust for build cryptography
-
 ```sh
-pip install setuptools-rust
-python setup.py develop
+pip install .
 ```
 
 ## Run test

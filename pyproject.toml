@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "setuptools-rust"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pylineworks"
+version = "0.1.0"
+# dynamic = ["version"]
+authors = [
+    {name = "Takuya Suenaga", email = "takuya.suenaga.dev@gmail.com"},
+]
+description = "Lineworks API client library"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["Lineworks", "API client"]
+license = {file = 'LICENSE'}
+classifiers = [
+    "Intended Audience :: Developers",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "requests",
+    "PyJWT",
+    "cryptography",
+]
+
+[project.optional-dependencies]
+test = ['python-dotenv', 'pytest>=7.0.0']
+
+# ... other project metadata fields as specified in:
+#     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
