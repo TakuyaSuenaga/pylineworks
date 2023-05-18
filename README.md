@@ -4,6 +4,10 @@ Python API client library for lineworks
 > **Note:** This library only supports LINEWORKS API 2.0  
 > **Note:** This library is not fully comprehensive.
 
+## Repository
+
+[https://github.com/TakuyaSuenaga/pylineworks](https://github.com/TakuyaSuenaga/pylineworks).  
+
 ## Installation
 
 To install run `pip install git+https://github.com/TakuyaSuenaga/pylineworks.git`.  
